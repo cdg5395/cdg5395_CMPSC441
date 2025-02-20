@@ -21,14 +21,7 @@ import itertools
 def best_hand(hand):
     "From a 7-card hand, return the best 5 card hand."
     # Your code here
-    highestRank = None
-    bestHand = hand
-    for Hand in itertools.combinations(hand,5):
-        rank = hand_rank(Hand)
-        if highestRank == None or rank > highestRank:
-            highestRank = rank
-            bestHand = Hand
-    return bestHand
+    pass
     
 # ------------------
 # Provided Functions
