@@ -29,3 +29,4 @@ def process_response(self, response):
 
 run_console_chat(template_file='lab05/lab05_dice_template.json',
                  process_response=process_response)
+
